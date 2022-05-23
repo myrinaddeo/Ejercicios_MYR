@@ -1,15 +1,11 @@
-//prueba de cambio
-
-
 Proceso fibonacci
 	
 	Definir num, i, suma, suma1 Como Enteros;
-	Definir primerENT, segundoENT, tercerENT como Enteros;
+	Definir a, b, c como enteros;
 	
-	
-	primerENT<-0;
-	segundoENT<-1;
-	tercerENT<-1;
+	a<-0;
+	b<-1;
+	c<-1;
 	i<-3;
 	
 	Repetir
@@ -19,19 +15,19 @@ Proceso fibonacci
 	
 	
 	
-	Escribir primerENT;
-	Escribir segundoENT;
-	Escribir tercerENT;
+	Escribir a;
+	Escribir b;
+	Escribir c;
 	
 	
 	Repetir
 		
-		suma <- segundoENT+tercerENT;
+		suma <- b+c;
 		
 		Escribir suma;
 		
-		segundoENT<-tercerENT;
-		tercerENT<-suma;
+		b<-c;
+		c<-suma;
 		i<-i+1;
 		
 	Hasta Que i = num;
