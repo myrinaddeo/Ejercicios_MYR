@@ -1,11 +1,12 @@
 Proceso fibonacci
 	
 	Definir num, i, suma, suma1 Como Enteros;
-	Definir a, b, c como enteros;
+	Definir primerENT, segundoENT, tercerENT como Enteros;
 	
-	a<-0;
-	b<-1;
-	c<-1;
+	
+	primerENT<-0;
+	segundoENT<-1;
+	tercerENT<-1;
 	i<-3;
 	
 	Repetir
@@ -15,19 +16,19 @@ Proceso fibonacci
 	
 	
 	
-	Escribir a;
-	Escribir b;
-	Escribir c;
+	Escribir primerENT;
+	Escribir segundoENT;
+	Escribir tercerENT;
 	
 	
 	Repetir
 		
-		suma <- b+c;
+		suma <- segundoENT+tercerENT;
 		
 		Escribir suma;
 		
-		b<-c;
-		c<-suma;
+		segundoENT<-tercerENT;
+		tercerENT<-suma;
 		i<-i+1;
 		
 	Hasta Que i = num;
